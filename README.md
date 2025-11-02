@@ -3,7 +3,7 @@
 ## Core learning in Qiskit, cross-implemented in Cirq for benchmarking and hardware-alignment with Google Quantum AI.
 
 | # | Project | Category | Framework Focus |
-|---|--------------|--------------|:------:|
+|---|--------------|--------------|------|
 | 1	| Hello Quantum: Single Qubit Circuit | Fundamentals | ✅ Qiskit |
 | 2 | Quantum Superposition Demo | Fundamentals | ✅ Qiskit |
 | 3 | Quantum Measurement Simulation | Fundamentals | ✅ Qiskit |
