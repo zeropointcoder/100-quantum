@@ -1,4 +1,4 @@
-# Quantum developer projects - 100
+# 100-quantum: 100 Quantum developer projects 
 
 ## Core learning in Qiskit, cross-implemented in Cirq for benchmarking and hardware-alignment with Google Quantum AI.
 
