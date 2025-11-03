@@ -36,4 +36,4 @@ git clone https://github.com/<your-username>/quantum-random-number-generator.git
 cd quantum-random-number-generator
 
 # Install dependencies
-pip install -r requirements.txt
+pip3 install -r requirements.txt

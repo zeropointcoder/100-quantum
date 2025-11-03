@@ -1,1 +1,2 @@
-pip3 install qiskit qiskit-aer
+qiskit
+qiskit-aer
