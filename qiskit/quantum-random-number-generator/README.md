@@ -31,9 +31,5 @@ Quantum randomness comes from measuring a qubit in superposition.
 ## Installation
 
 ```bash
-# Clone this repository
-git clone https://github.com/<your-username>/quantum-random-number-generator.git
-cd quantum-random-number-generator
 
-# Install dependencies
 pip3 install -r requirements.txt

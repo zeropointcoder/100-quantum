@@ -10,7 +10,7 @@ A simulation of quantum teleportation using Qiskit. Demonstrates how an arbitrar
 
 ## Requirements
 - Python 3.9+
-- Qiskit (`pip install qiskit`)
+- Qiskit (`pip3 install qiskit`)
 - `pip3 install qiskit qiskit-aer matplotlib pylatexenc`
 
 ## Run
