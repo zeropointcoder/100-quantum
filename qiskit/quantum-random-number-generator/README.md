@@ -14,9 +14,16 @@ This project demonstrates how quantum superposition and measurement can be used 
 ---
 
 ## How It Works
-1. A qubit starts in the |0⟩ state.
-2. A **Hadamard gate (H)** is applied to place it in an equal superposition of |0⟩ and |1⟩.
-3. Measuring the qubit collapses it randomly to either 0 or 1.
+Quantum randomness comes from measuring a qubit in superposition.
+
+1. A qubit starts in state |0⟩
+
+2. Apply a **Hadamard gate (H)** → puts it into superposition:
+   
+   |ψ⟩ = (|0⟩ + |1⟩) / √2
+
+3. Measuring the qubit collapses it randomly to either 0 or 1 each with 50% probability.
+
 4. Repeat this for multiple bits to create a random number.
 
 ---
