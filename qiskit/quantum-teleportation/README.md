@@ -1,5 +1,6 @@
 # Quantum Teleportation Simulation (Qiskit)
 
+## Goal
 A simulation of quantum teleportation using Qiskit. Demonstrates how an arbitrary qubit state can be transmitted from Alice to Bob via entanglement and classical communication.
 
 ## Features
@@ -9,10 +10,11 @@ A simulation of quantum teleportation using Qiskit. Demonstrates how an arbitrar
 - Ready for execution on IBM Quantum hardware
 
 ## Requirements
-- Python 3.9+
-- Qiskit (`pip3 install qiskit`)
-- `pip3 install qiskit qiskit-aer matplotlib pylatexenc`
+```bash
+pip3 install qiskit qiskit-aer matplotlib pylatexenc
+```
 
 ## Run
 ```bash
 python3 teleportation.py
+```
