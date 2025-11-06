@@ -1,4 +1,5 @@
-qiskit
-qiskit-aer
-qiskit-algorithms
-matplotlib
+qiskit 
+qiskit-aer 
+numpy 
+matplotlib 
+scikit-learn

@@ -3,17 +3,77 @@
 ## Goal
 Implement a simple hybrid quantum–classical classifier. It uses a parameterised quantum circuit (ansatz) as a feature map, followed by a classical optimisation loop to train the parameters for binary classification.
 
-## Concept Overview
-We’ll build a classifier to distinguish between two small synthetic datasets (e.g., points in 2D).
+## Theory
+- Hybrid quantum-classical model:
+
+    - Quantum circuit encodes features and generates an expectation value.
+
+    - Classical optimiser adjusts parameters in the quantum circuit.
 
 ## Steps
-- Generate training data (two classes of 2D points).
-- Encode data into a quantum circuit using a feature map.
-- Define a parameterised ansatz circuit with trainable weights.
-- Measure an observable (Pauli Z) to get a scalar output.
-- Train parameters using a classical optimiser (gradient-free).
-- Classify test points based on the sign of the expectation value.
 
+    - Encode classical data → Quantum state.
+
+    - Apply parameterised gates → Variational quantum circuit.
+
+    - Measure expectation value of observable (Z) → output.
+
+    - Compare output to labels → compute loss.
+
+    - Compute gradient → update parameters via classical optimiser.
+
+## Why hybrid?
+
+    - Quantum circuit provides nonlinear transformations of classical data (feature mapping).
+
+    - Classical optimisation is still used to train the model efficiently.
+
+## Hybrid Quantum Classifier Flow
+```bash
+Classical Input (x0, x1)
+        │
+        ▼
+  ┌──────────────────┐
+  │ Feature Encoding │
+  │  (RY(x0), RZ(x1))│
+  └──────────────────┘
+        │
+        ▼
+  ┌──────────────────┐
+  │  Variational QC  │
+  │   RY(θ) gate     │
+  └──────────────────┘
+        │
+        ▼
+  ┌──────────────────┐
+  │ Measurement: Z   │
+  │ Expectation Value │
+  │ ⟨Z⟩ ∈ [-1,1]     │
+  └──────────────────┘
+        │
+        ▼
+  ┌──────────────────┐
+  │ Classical Loss   │
+  │ (MSE: (y - ⟨Z⟩)^2) │
+  └──────────────────┘
+        │
+        ▼
+  ┌──────────────────┐
+  │ Gradient Computation │
+  │ (Parameter-Shift Rule) │
+  └──────────────────┘
+        │
+        ▼
+  ┌──────────────────┐
+  │ Update θ (GD)    │
+  └──────────────────┘
+        │
+        ▼
+      Trained Model
+        │
+        ▼
+   Prediction: sign(⟨Z⟩)
+```
 ## Requirements
 ```bash
 pip3 install -r requirements.txt
