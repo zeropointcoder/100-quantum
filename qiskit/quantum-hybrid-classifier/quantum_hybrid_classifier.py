@@ -86,5 +86,4 @@ plt.show()
 
 # Output:
 # This is a minimal 1-qubit quantum classifier. 
-# Due to the limited expressivity of the circuit, 
-# the maximum achievable accuracy on this dataset is 75%.
+# Due to the limited expressivity of the circuit, the maximum achievable accuracy on this dataset is 75%.
