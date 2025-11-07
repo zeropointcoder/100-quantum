@@ -4,8 +4,8 @@
 
 | # | Project | Category | Framework Focus |
 |---|--------------|--------------|------|
-| 1	| [Hello Quantum: Single Qubit Circuit](https://github.com/zeropointcoder/100-quantum/tree/main/qiskit/quantum-basic-circuits) | Fundamentals | Qiskit |
-| 2 | [Hadamard Single Qubit Superposition](https://github.com/zeropointcoder/100-quantum/tree/main/qiskit/hadamard_superposition) | Fundamentals | Qiskit |
+| 1	| [Quantum Basic Circuit](https://github.com/zeropointcoder/100-quantum/tree/main/qiskit/quantum-basic-circuits) | Fundamentals | Qiskit |
+| 2 | [Hadamard Single Qubit Superposition](https://github.com/zeropointcoder/100-quantum/tree/main/qiskit/hadamard-superposition) | Fundamentals | Qiskit |
 | 3 | Quantum Measurement Simulation | Fundamentals | Qiskit |
 | 4 | Quantum NOT Gate (X-gate) | Fundamentals | Qiskit |
 | 5 | Quantum AND (Toffoli Gate) | Fundamentals | Qiskit |
@@ -14,7 +14,7 @@
 | 8 | [Quantum Teleportation](https://github.com/zeropointcoder/100-quantum/tree/main/qiskit/quantum-teleportation) | Entanglement | Qiskit |
 | 9 | GHZ State Creation | Entanglement | Qiskit |
 | 10 | Simple Circuit Visualiser | Visualisation | Qiskit |
-| 11 | Measurement Statistics Analyzer | Simulation | Qiskit |
+| 11 | Measurement Statistics Analyser | Simulation | Qiskit |
 | 12 | Qubit Rotation on Bloch Sphere | Visualisation | Qiskit |
 | 13 | Simulate Decoherence | Noise | Qiskit |
 | 14 | Swap Gate Experiment | Gates | Qiskit |
