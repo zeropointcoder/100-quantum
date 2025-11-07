@@ -4,7 +4,7 @@
 
 | # | Project | Category | Framework Focus |
 |---|--------------|--------------|------|
-| 1	| [Quantum Basic Circuit](https://github.com/zeropointcoder/100-quantum/tree/main/qiskit/quantum-basic-circuits) | Fundamentals | Qiskit |
+| 1	| [Quantum Basic Circuits](https://github.com/zeropointcoder/100-quantum/tree/main/qiskit/quantum-basic-circuits) | Fundamentals | Qiskit |
 | 2 | [Hadamard Single Qubit Superposition](https://github.com/zeropointcoder/100-quantum/tree/main/qiskit/hadamard-superposition) | Fundamentals | Qiskit |
 | 3 | Quantum Measurement Simulation | Fundamentals | Qiskit |
 | 4 | Quantum NOT Gate (X-gate) | Fundamentals | Qiskit |
