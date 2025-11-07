@@ -4,14 +4,14 @@
 
 | # | Project | Category | Framework Focus |
 |---|--------------|--------------|------|
-| 1	| Hello Quantum: Single Qubit Circuit | Fundamentals | ✅ Qiskit |
+| 1	| [Hello Quantum: Single Qubit Circuit](https://github.com/zeropointcoder/100-quantum/tree/main/qiskit/quantum-basic-circuits) | Fundamentals | ✅ Qiskit |
 | 2 | Quantum Superposition Demo | Fundamentals | ✅ Qiskit |
 | 3 | Quantum Measurement Simulation | Fundamentals | ✅ Qiskit |
 | 4 | Quantum NOT Gate (X-gate) | Fundamentals | ✅ Qiskit |
 | 5 | Quantum AND (Toffoli Gate) | Fundamentals | ✅ Qiskit |
-| 6 | Quantum Random Number Generator | Fundamentals | ✅ Qiskit |
+| 6 | [Quantum Random Number Generator](https://github.com/zeropointcoder/100-quantum/tree/main/qiskit/quantum-random-number-generator) | Fundamentals | ✅ Qiskit |
 | 7 | Bell State Creation | Entanglement | ✅ Qiskit |
-| 8 | Quantum Teleportation | Entanglement | ✅ Qiskit |
+| 8 | [Quantum Teleportation](https://github.com/zeropointcoder/100-quantum/tree/main/qiskit/quantum-teleportation) | Entanglement | ✅ Qiskit |
 | 9 | GHZ State Creation | Entanglement | ✅ Qiskit |
 | 10 | Simple Circuit Visualiser | Visualisation | ✅ Qiskit |
 | 11 | Measurement Statistics Analyzer | Simulation | ✅ Qiskit |
@@ -24,9 +24,9 @@
 | 18 | Quantum Oracle Construction | Algorithm | ✅ Qiskit |
 | 19 | Simple Quantum Game | Simulation | ✅ Qiskit |
 | 20 | Teleportation Visualisation | Visualisation | ✅ Qiskit |
-| 21 | Grover’s Algorithm (2-qubit) | Algorithm | ✅ Qiskit |
-| 22 | Grover’s Algorithm (3-qubit) | Algorithm | ✅ Qiskit / 🧩 Cirq |
-| 23 | Shor’s Algorithm (Factor 15) | Algorithm | ✅ Qiskit |
+| 21 | [Grover’s Algorithm (2-qubit)](https://github.com/zeropointcoder/100-quantum/tree/main/qiskit/grover-simple-search) | Algorithm | ✅ Qiskit |
+| 22 | [Grover’s Algorithm (3-qubit)](https://github.com/zeropointcoder/100-quantum/tree/main/qiskit/grover-simple-search) | Algorithm | ✅ Qiskit / 🧩 Cirq |
+| 23 | [Shor’s Algorithm (Factor 15)](https://github.com/zeropointcoder/100-quantum/tree/main/qiskit/shor-factorisation) | Algorithm | ✅ Qiskit |
 | 24 | VQE for H₂ Molecule | Variational | ✅ Qiskit |
 | 25 | QAOA on Small Graph | Optimisation | ✅ Qiskit / 🧩 Cirq |
 | 26 | Simulate 2-Qubit Noise | Noise | ✅ Qiskit |
@@ -35,7 +35,7 @@
 | 29 | Quantum Fourier Transform | Algorithm | ✅ Qiskit |
 | 30 | Teleportation with Noise | Error/Noise | ✅ Qiskit |
 | 31 | Circuit Learning for XOR | Quantum ML | ✅ Qiskit |
-| 32 | Parameterised Quantum Classifier | Quantum ML | ✅ Qiskit |
+| 32 | [Parameterised Quantum Classifier](https://github.com/zeropointcoder/100-quantum/tree/main/qiskit/quantum-hybrid-classifier) | Quantum ML | ✅ Qiskit |
 | 33 | Quantum Kernel SVM | Quantum ML | ✅ Qiskit |
 | 34 | Bell Inequality Test | Entanglement | ✅ Qiskit |
 | 35 | MaxCut with VQE | Optimisation | ✅ Qiskit / 🧩 Cirq |
