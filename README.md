@@ -35,7 +35,7 @@
 | 29 | Quantum Fourier Transform | Algorithm | Qiskit |
 | 30 | Teleportation with Noise | Error/Noise | Qiskit |
 | 31 | Circuit Learning for XOR | Quantum ML | Qiskit |
-| 32 | [Parameterised Quantum Classifier](https://github.com/zeropointcoder/100-quantum/tree/main/qiskit/quantum-hybrid-classifier) | Quantum ML | Qiskit |
+| 32 | [Quantum Hybrid Classifier](https://github.com/zeropointcoder/100-quantum/tree/main/qiskit/quantum-hybrid-classifier) | Quantum ML | Qiskit |
 | 33 | Quantum Kernel SVM | Quantum ML | Qiskit |
 | 34 | Bell Inequality Test | Entanglement | Qiskit |
 | 35 | MaxCut with VQE | Optimisation | Qiskit / Cirq |
