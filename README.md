@@ -6,7 +6,7 @@
 |---|--------------|--------------|------|
 | 1	| [Quantum Basic Circuits](https://github.com/zeropointcoder/100-quantum/tree/main/qiskit/quantum-basic-circuits) | Fundamentals | Qiskit |
 | 2 | [Hadamard Single Qubit Superposition](https://github.com/zeropointcoder/100-quantum/tree/main/qiskit/hadamard-superposition) | Fundamentals | Qiskit |
-| 3 | Quantum Measurement Simulation | Fundamentals | Qiskit |
+| 3 | [Quantum Measurement Simulation](https://github.com/zeropointcoder/100-quantum/tree/main/qiskit/quantum-measurement-simulation) | Fundamentals | Qiskit |
 | 4 | Quantum NOT Gate (X-gate) | Fundamentals | Qiskit |
 | 5 | Quantum AND (Toffoli Gate) | Fundamentals | Qiskit |
 | 6 | [Quantum Random Number Generator (QRNG)](https://github.com/zeropointcoder/100-quantum/tree/main/qiskit/quantum-random-number-generator) | Fundamentals | Qiskit |
