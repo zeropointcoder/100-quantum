@@ -4,12 +4,12 @@
 
 | # | Project | Category | Framework Focus |
 |---|--------------|--------------|------|
-| 1	| [Quantum Basic Circuits](https://github.com/zeropointcoder/100-quantum/tree/main/qiskit/quantum-basic-circuits) | Fundamentals | Qiskit |
-| 2 | [Hadamard Single Qubit Superposition](https://github.com/zeropointcoder/100-quantum/tree/main/qiskit/hadamard-superposition) | Fundamentals | Qiskit |
-| 3 | [Quantum Measurement Simulation](https://github.com/zeropointcoder/100-quantum/tree/main/qiskit/quantum-measurement-simulation) | Fundamentals | Qiskit |
-| 4 | Quantum NOT Gate (X-gate) | Fundamentals | Qiskit |
-| 5 | Quantum AND (Toffoli Gate) | Fundamentals | Qiskit |
-| 6 | [Quantum Random Number Generator (QRNG)](https://github.com/zeropointcoder/100-quantum/tree/main/qiskit/quantum-random-number-generator) | Fundamentals | Qiskit |
+| 1	| [Quantum Basic Circuits](https://github.com/zeropointcoder/100-quantum/tree/main/qiskit/quantum-basic-circuits) | Superposition, Measurement | Qiskit |
+| 2 | [Hadamard Single Qubit Superposition](https://github.com/zeropointcoder/100-quantum/tree/main/qiskit/hadamard-superposition) | Superposition, Measurement | Qiskit |
+| 3 | [Quantum Measurement Simulation](https://github.com/zeropointcoder/100-quantum/tree/main/qiskit/quantum-measurement-simulation) | Superposition, Measurement | Qiskit |
+| 4 | Quantum NOT Gate (X-gate) | Superposition, Measurement | Qiskit |
+| 5 | Quantum AND (Toffoli Gate) | Superposition, Measurement | Qiskit |
+| 6 | [Quantum Random Number Generator (QRNG)](https://github.com/zeropointcoder/100-quantum/tree/main/qiskit/quantum-random-number-generator) | Superposition, Measurement | Qiskit |
 | 7 | Bell State Creation | Entanglement | Qiskit |
 | 8 | [Quantum Teleportation Simulation](https://github.com/zeropointcoder/100-quantum/tree/main/qiskit/quantum-teleportation) | Entanglement | Qiskit |
 | 9 | GHZ State Creation | Entanglement | Qiskit |
