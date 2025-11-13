@@ -14,7 +14,7 @@ To create, simulate, and visualise a basic quantum circuit using **Qiskit**, the
 
 ## Requirements
 ```bash
-pip3 install qiskit qiskit-aer matplotlib pylatexenc
+pip3 install -r requirements.txt
 ```
 
 ## Run

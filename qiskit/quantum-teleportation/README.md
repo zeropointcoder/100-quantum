@@ -11,7 +11,7 @@ A simulation of quantum teleportation using Qiskit. Demonstrates how an arbitrar
 
 ## Requirements
 ```bash
-pip3 install qiskit qiskit-aer matplotlib pylatexenc
+pip3 install -r requirements.txt
 ```
 
 ## Run
