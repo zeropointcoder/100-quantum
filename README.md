@@ -7,8 +7,8 @@
 | 1	| [Quantum Basic Circuits](https://github.com/zeropointcoder/100-quantum/tree/main/qiskit/quantum-basic-circuits) | Superposition, Measurement | Qiskit |
 | 2 | [Hadamard Single Qubit Superposition](https://github.com/zeropointcoder/100-quantum/tree/main/qiskit/hadamard-superposition) | Superposition, Measurement | Qiskit |
 | 3 | [Quantum Measurement Simulation](https://github.com/zeropointcoder/100-quantum/tree/main/qiskit/quantum-measurement-simulation) | Superposition, Measurement | Qiskit |
-| 4 | Quantum NOT Gate (X-gate) | Superposition, Measurement | Qiskit |
-| 5 | Quantum AND (Toffoli Gate) | Superposition, Measurement | Qiskit |
+| 4 | [Quantum NOT Gate (X-gate)](https://github.com/zeropointcoder/100-quantum/tree/main/qiskit/quantum-x-gate) | Superposition, Measurement | Qiskit |
+| 5 | [Quantum AND Gate (Toffoli Gate)](https://github.com/zeropointcoder/100-quantum/tree/main/qiskit/quantum-and-gate) | Superposition, Measurement | Qiskit |
 | 6 | [Quantum Random Number Generator (QRNG)](https://github.com/zeropointcoder/100-quantum/tree/main/qiskit/quantum-random-number-generator) | Superposition, Measurement | Qiskit |
 | 7 | Bell State Creation | Entanglement | Qiskit |
 | 8 | [Quantum Teleportation Simulation](https://github.com/zeropointcoder/100-quantum/tree/main/qiskit/quantum-teleportation) | Entanglement | Qiskit |
@@ -104,3 +104,10 @@
 | 98 | Quantum ML Pipeline (Cloud) | ML + Cloud | ⚙️ Hybrid (Qiskit + Cirq + TFQ) |
 | 99 | BB84 Cryptography Protocol | Quantum Comms | Qiskit |
 | 100 | Custom Hybrid Quantum Algorithm | Applied Research | ⚙️ Hybrid (Qiskit + Cirq + TFQ) |
+| DP1 | Core Deep Project 1: Custom QAOA / Problem-Specific Mixer Design | variational quantum algorithms, cost+mixer Hamiltonian design, optimization landscapes, hardware calibration  | Qiskit/Cirq |
+| DP2 | Core Deep Project 2: Full Quantum Error Correction Pipeline | QEC, stabilizers, decoding algorithms, noise channels  | Qiskit/Cirq |
+| DP3 | Core Deep Project 3: Pulse-Level Quantum Control | pulse-level programming, Hamiltonian control, GRAPE optimization, backend calibration parameters  | Qiskit/Cirq |
+| RP4 | Research Project 4: Reproduce a Real Quantum Research Paper | quantum chemistry, Hamiltonian decomposition, advanced simulation algorithms, scientific benchmarking  | Qiskit/Cirq |
+| RP5 | Research Project 5: Variational Quantum Eigensolver with Active Space Reduction | chemistry basis sets, UCCSD ansatz, classical pre-processing, active space partitioning, orbital reduction | Qiskit |
+| HC6 | Hardware/Compiler Project 6: Quantum Transpiler Optimization Pass | Qiskit Terra internals, DAGCircuit, pass manager, routing heuristics, hardware-aware optimization | Qiskit |
+| HC7 | Hardware/Compiler Project 7: Noise-Aware Benchmarking Suite | randomized benchmarking, purity benchmarking, zero-noise extrapolation, measurement error mitigation, noise tomography | Qiskit |
