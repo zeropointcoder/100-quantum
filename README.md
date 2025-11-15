@@ -11,8 +11,8 @@
 | 5 | [Quantum AND Gate (Toffoli Gate)](https://github.com/zeropointcoder/100-quantum/tree/main/qiskit/quantum-and-gate) | Superposition, Measurement | Qiskit |
 | 6 | [Quantum Random Number Generator (QRNG)](https://github.com/zeropointcoder/100-quantum/tree/main/qiskit/quantum-random-number-generator) | Superposition, Measurement | Qiskit |
 | 7 | [Bell State Creation](https://github.com/zeropointcoder/100-quantum/tree/main/qiskit/bell-state-creation) | Entanglement | Qiskit |
-| 8 | [Quantum Teleportation Simulation](https://github.com/zeropointcoder/100-quantum/tree/main/qiskit/quantum-teleportation) | Entanglement | Qiskit |
-| 9 | GHZ State Creation | Entanglement | Qiskit |
+| 8 | [GHZ State Creation](https://github.com/zeropointcoder/100-quantum/tree/main/qiskit/ghz-state-creation) | Entanglement | Qiskit |
+| 9 | [Quantum Teleportation Simulation](https://github.com/zeropointcoder/100-quantum/tree/main/qiskit/quantum-teleportation) | Entanglement | Qiskit |
 | 10 | Simple Circuit Visualiser | Visualisation | Qiskit |
 | 11 | Measurement Statistics Analyser | Simulation | Qiskit |
 | 12 | Qubit Rotation on Bloch Sphere | Visualisation | Qiskit |
