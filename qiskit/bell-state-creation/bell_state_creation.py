@@ -16,6 +16,8 @@ def create_bell_state():
     # Measure the qubits
     qc.measure([0,1], [0,1])
 
+    print(qc)
+
     # Use AerSimulator
     simulator = AerSimulator()
     compiled_circuit = transpile(qc, simulator)

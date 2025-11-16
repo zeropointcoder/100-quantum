@@ -26,7 +26,7 @@ def create_ghz_state():
     results = simulator.run(compiled_circuit, shots=1024).result()
     counts = results.get_counts()
 
-    plot_histogram(counts)
+    plot_histogram(counts).show()
     plt.show()
     return counts
 

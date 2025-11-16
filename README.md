@@ -13,9 +13,9 @@
 | 7 | [Bell State Creation](https://github.com/zeropointcoder/100-quantum/tree/main/qiskit/bell-state-creation) | Entanglement | Qiskit |
 | 8 | [GHZ State Creation](https://github.com/zeropointcoder/100-quantum/tree/main/qiskit/ghz-state-creation) | Entanglement | Qiskit |
 | 9 | [Quantum Teleportation Simulation](https://github.com/zeropointcoder/100-quantum/tree/main/qiskit/quantum-teleportation) | Entanglement | Qiskit |
-| 10 | Simple Circuit Visualiser | Visualisation | Qiskit |
-| 11 | Measurement Statistics Analyser | Simulation | Qiskit |
-| 12 | Qubit Rotation on Bloch Sphere | Visualisation | Qiskit |
+| 10 | [Quantum Circuit Visualiser](https://github.com/zeropointcoder/100-quantum/tree/main/qiskit/quantum-circuit-visualiser) | Visualisation | Qiskit |
+| 11 | [Measurement Statistics Analyser](https://github.com/zeropointcoder/100-quantum/tree/main/qiskit/quantum-stats-analyser) | Simulation | Qiskit |
+| 12 | [Qubit Rotation on Bloch Sphere](https://github.com/zeropointcoder/100-quantum/tree/main/qiskit/qubit-rotator) | Visualisation | Qiskit |
 | 13 | Simulate Decoherence | Noise | Qiskit |
 | 14 | Swap Gate Experiment | Gates | Qiskit |
 | 15 | Quantum Circuit Optimiser | Compilation | Qiskit |
