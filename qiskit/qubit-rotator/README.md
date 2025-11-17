@@ -20,9 +20,9 @@ Qubit Rotation Gates:
 - ry(theta, qubit) applies a rotation around the Y-axis by theta.
 - rz(theta, qubit) applies a rotation around the Z-axis by theta.
 
-Bloch Sphere Visualization:
+Bloch Sphere Visualisation:
 
-- The plot_bloch_multivector(statevector) function generates a 3D Bloch sphere visualization from the final state vector.
+- The plot_bloch_multivector(statevector) function generates a 3D Bloch sphere visualisation from the final state vector.
 
 ## Expected Output:
 

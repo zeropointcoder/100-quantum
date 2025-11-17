@@ -1,30 +1,39 @@
-# Import required libraries
-from qiskit import Aer, QuantumCircuit, execute
-from qiskit.visualization import plot_bloch_multivector
+from qiskit import QuantumCircuit, transpile
+from qiskit_aer import AerSimulator
+from qiskit.visualization import plot_histogram, plot_bloch_multivector
+import matplotlib.pyplot as plt
 
-# Create a Quantum Circuit with one qubit
-qc = QuantumCircuit(1)
+def qubit_rotator():
 
-# Apply a rotation around the X-axis (rx) by 90 degrees (pi/2 radians)
-qc.rx(3.14/2, 0)
+    # Create quantum circuit with 1 qubit
+    qc = QuantumCircuit(1)
 
-# Apply a rotation around the Y-axis (ry) by 45 degrees (pi/4 radians)
-qc.ry(3.14/4, 0)
+    # Apply a rotation around X-axis by 90 degrees (pi/2 radians)
+    qc.rx(3.14/2, 0)
 
-# Apply a rotation around the Z-axis (rz) by 30 degrees (pi/6 radians)
-qc.rz(3.14/6, 0)
+    # Apply a rotation around Y-axis by 45 degrees (pi/4 radians)
+    qc.ry(3.14/4, 0)
 
-# Draw the circuit
-print(qc.draw())
+    # Apply a rotation around Z-axis by 30 degrees(pi/6 radians)
+    qc.rz(3.14/6, 0)
 
-# Use the AerSimulator to simulate the quantum circuit
-simulator = Aer.get_backend('statevector_simulator')
+    # Save the statevector so AerSimulator returns it
+    qc.save_statevector()
 
-# Execute the circuit on the simulator
-result = execute(qc, simulator).result()
+    # Draw the circuit
+    print(qc.draw())
 
-# Get the final state vector
-statevector = result.get_statevector()
+    # Create simulator
+    simulator = AerSimulator()
+    compiled_circuit = transpile(qc, simulator)
+    result = simulator.run(compiled_circuit).result()
 
-# Plot the Bloch sphere visualization
-plot_bloch_multivector(statevector)
+    # Get the final state vector
+    statevector = result.get_statevector()
+
+    # Plot the Bloch Sphere Visualisation
+    plot_bloch_multivector(statevector)
+    plt.show()
+
+if __name__=="__main__":
+    qubit_rotator()
