@@ -1,46 +1,43 @@
-from qiskit import Aer, QuantumCircuit, transpile
+from qiskit import QuantumCircuit, transpile
+from qiskit_aer import AerSimulator
 from qiskit.visualization import plot_histogram
 import matplotlib.pyplot as plt
 
-# Create a 2-qubit quantum circuit
-qc = QuantumCircuit(2, 2)
+def quantum_stats_analyser():
+    # Create 2-qubit quantum circuit
+    qc = QuantumCircuit(2,2)
 
-# Apply a Hadamard gate to the first qubit
-qc.h(0)
+    # Apply Hadamard gate to the first qubit
+    qc.h(0)
 
-# Apply a CNOT gate with the first qubit as control and the second as target
-qc.cx(0, 1)
+    # Apply a CNOT gate with the first qubit as control and the second as target 
+    qc.cx(0,1)
 
-# Measure the qubits
-qc.measure([0, 1], [0, 1])
+    # Measure the qubits
+    qc.measure([0,1], [0,1])
 
-# Visualize the circuit
-print("Quantum Circuit:")
-print(qc.draw())
+    # Visualise the circuit
+    print("Quantum Circuit:")
+    print(qc.draw())
 
-# Set up the Aer simulator
-simulator = Aer.get_backend('aer_simulator')
+    # Create simulator
+    simulator = AerSimulator()
+    compiled_circuit = transpile(qc, simulator)
+    result = simulator.run(compiled_circuit, shots=1024).result()
+    counts = result.get_counts()
 
-# Compile and execute the circuit on the simulator
-compiled_circuit = transpile(qc, simulator)
-job = simulator.run(compiled_circuit, shots=1024)
+    print("Measurement Results: ", counts)
 
-# Get the results from the simulation
-result = job.result()
+    # Calculate and print probabilities of each outcome
+    total_shots = sum(counts.values())
+    probabilities = {outcome: count/total_shots for outcome, count in counts.items()}
+    
+    print("\nMeasurement Probabilities:")
+    for outcome, probability in probabilities.items():
+        print(f"Outcome {outcome}: Probability {probability:.4f}")
 
-# Retrieve the counts (measurement results)
-counts = result.get_counts(compiled_circuit)
+    plot_histogram(counts)
+    plt.show()
 
-# Print the measurement results
-print("\nMeasurement counts:", counts)
-
-# Calculate and print probabilities of each outcome
-total_shots = sum(counts.values())
-probabilities = {outcome: count / total_shots for outcome, count in counts.items()}
-print("\nMeasurement Probabilities:")
-for outcome, probability in probabilities.items():
-    print(f"Outcome {outcome}: Probability {probability:.4f}")
-
-# Plot the histogram of the measurement results
-plot_histogram(counts)
-plt.show()
+if __name__=="__main__":
+    quantum_stats_analyser()

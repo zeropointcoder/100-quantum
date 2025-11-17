@@ -6,7 +6,7 @@ This project is an example of how to perform quantum measurements, visualise sta
 
 ## Steps
 - Create a 2-qubit quantum circuit.
-- Simulate the circuit on the AerSimulator.
+- Simulate the circuit.
 - Perform measurements on the qubits.
 - Display the measurement counts and calculate probabilities.
 - Plot a histogram of the results.
