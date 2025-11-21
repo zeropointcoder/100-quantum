@@ -17,7 +17,7 @@
 | 11 | [Measurement Statistics Analyser](https://github.com/zeropointcoder/100-quantum/tree/main/qiskit/quantum-stats-analyser) | Simulation | Qiskit |
 | 12 | [Qubit Rotation on Bloch Sphere](https://github.com/zeropointcoder/100-quantum/tree/main/qiskit/qubit-rotator) | Visualisation | Qiskit |
 | 13 | [Simulate Decoherence](https://github.com/zeropointcoder/100-quantum/tree/main/qiskit/decoherence-noise-simulation) | Noise | Qiskit |
-| 14 | Swap Gate Experiment | Gates | Qiskit |
+| 14 | [SWAP Gate Experiment](https://github.com/zeropointcoder/100-quantum/tree/main/qiskit/swap-gate-experiment) | Gates | Qiskit |
 | 15 | Quantum Circuit Optimiser | Compilation | Qiskit |
 | 16 | Bit-Flip Error Simulation | Error | Qiskit |
 | 17 | Deutsch Algorithm (1-bit) | Algorithm | Qiskit |
