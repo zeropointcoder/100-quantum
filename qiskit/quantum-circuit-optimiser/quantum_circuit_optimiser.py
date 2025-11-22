@@ -22,20 +22,19 @@ def quantum_circuit_optimiser():
     print("\nOriginal Circuit: ")
     print(qc)
 
-    counts = run_simulator(qc)
-
-    plot_histogram(counts)
-    plt.show()
-
-def run_simulator(qc):
     # Apply transpile with optimisation level 3
     qc_optimised = transpile(qc, basis_gates=['u1','u2','u3','cx'], optimization_level=3)
 
     print("\nOptimised Circuit: ")
     print(qc_optimised)
 
-    simulator = AerSimulator()
+    counts = run_simulator(qc_optimised)
 
+    plot_histogram(counts)
+    plt.show()
+
+def run_simulator(qc_optimised):
+    simulator = AerSimulator()
     result = simulator.run(qc_optimised).result()
     counts = result.get_counts()
 
