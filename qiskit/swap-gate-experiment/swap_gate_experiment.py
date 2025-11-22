@@ -22,12 +22,12 @@ def swap_gate_experiment():
     print("\nAfter SWAP, circuit:")
     print(qc)
 
-    counts = simulate(qc)
+    counts = run_simulator(qc)
     
     plot_histogram(counts)
     plt.show()
 
-def simulate(qc):
+def run_simulator(qc):
     simulator = AerSimulator()
     compiled_circuit = transpile(qc, simulator)
     result = simulator.run(compiled_circuit, shots=1024).result()
