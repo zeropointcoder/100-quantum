@@ -19,7 +19,7 @@
 | 13 | [Simulate Decoherence](https://github.com/zeropointcoder/100-quantum/tree/main/qiskit/decoherence-noise-simulation) | Noise | Qiskit |
 | 14 | [SWAP Gate Experiment](https://github.com/zeropointcoder/100-quantum/tree/main/qiskit/swap-gate-experiment) | Gates | Qiskit |
 | 15 | [Quantum Circuit Optimiser](https://github.com/zeropointcoder/100-quantum/tree/main/qiskit/quantum-circuit-optimiser) | Compilation | Qiskit |
-| 16 | Bit-Flip Error Simulation | Error | Qiskit |
+| 16 | [Bit-Flip Error Simulation](https://github.com/zeropointcoder/100-quantum/tree/main/qiskit/bitflip-error-simulation) | Error | Qiskit |
 | 17 | Deutsch Algorithm (1-bit) | Algorithm | Qiskit |
 | 18 | Quantum Oracle Construction | Algorithm | Qiskit |
 | 19 | Simple Quantum Game | Simulation | Qiskit |
