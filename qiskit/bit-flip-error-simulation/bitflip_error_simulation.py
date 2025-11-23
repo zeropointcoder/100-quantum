@@ -20,6 +20,7 @@ def bitflip_error_simulation():
     qc.id(0) # Apply an id gate to attach noise
     qc.measure(0,0)
 
+    print("\nOriginal circuit: ")
     print(qc)
 
     counts = run_simulator(qc, noise_model)
@@ -30,6 +31,7 @@ def bitflip_error_simulation():
 # Simulate
 def run_simulator(qc, noise_model):
     simulator = AerSimulator(noise_model=noise_model)
+
     result = simulator.run(qc, shots=2000).result()
     counts = result.get_counts()
 
