@@ -8,7 +8,7 @@ This simulation shows how a qubit in **superposition** collapses probabilistical
 
 ## Steps
 1. Creating a quantum circuit with a qubit in superposition.
-2. Simulating quantum measurement using Qiskit AerSimulator.
+2. Simulating quantum measurement.
 3. Visualising the measurement results as a histogram.
 
 ## Requirements

@@ -1,31 +1,21 @@
 # Quantum hybrid classifier
 
-## Goal
 Implement a simple hybrid quantum–classical classifier. It uses a parameterised quantum circuit (ansatz) as a feature map, followed by a classical optimisation loop to train the parameters for binary classification.
 
 ## Theory
-- Hybrid quantum-classical model:
-
+- **Hybrid quantum-classical model**:
     - Quantum circuit encodes features and generates an expectation value.
-
     - Classical optimiser adjusts parameters in the quantum circuit.
 
 ## Steps
-
     - Encode classical data → Quantum state.
-
     - Apply parameterised gates → Variational quantum circuit.
-
-    - Measure expectation value of observable (Z) → output.
-
+    - Measure expectation value of observable `(Z)` → output.
     - Compare output to labels → compute loss.
-
     - Compute gradient → update parameters via classical optimiser.
 
 ## Why hybrid?
-
     - Quantum circuit provides nonlinear transformations of classical data (feature mapping).
-
     - Classical optimisation is still used to train the model efficiently.
 
 ## Hybrid Quantum Classifier Flow
@@ -73,6 +63,7 @@ Classical Input (x0, x1)
         │
         ▼
    Prediction: sign(⟨Z⟩)
+   
 ```
 ## Requirements
 ```bash

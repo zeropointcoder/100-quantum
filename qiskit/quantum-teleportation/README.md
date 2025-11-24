@@ -1,7 +1,6 @@
-# Quantum Teleportation Simulation (Qiskit)
+# Quantum Teleportation Simulation
 
-## Goal
-A simulation of quantum teleportation using Qiskit. Demonstrates how an arbitrary qubit state can be transmitted from Alice to Bob via entanglement and classical communication.
+A simulation of quantum teleportation using Qiskit. Demonstrates how an arbitrary qubit state can be transmitted from `Alice` to `Bob` via `entanglement` and classical communication.
 
 ## Features
 - Step-by-step teleportation circuit

@@ -2,9 +2,7 @@
 
 To simulate quantum circuits and analyse the resulting measurement statistics.
 
-This project is an example of how to perform quantum measurements, visualise statistics, and understand quantum behaviour in a simulated environment.
-
-## Steps
+## Overview
 - Create a 2-qubit quantum circuit.
 - Simulate the circuit.
 - Perform measurements on the qubits.

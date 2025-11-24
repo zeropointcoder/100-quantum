@@ -14,8 +14,8 @@ To prepare a qubit in state `∣1⟩`, apply a classical `bit-flip` channel with
     - Measure the qubit over many shots (e.g., `2000`)
 
 3. Expected Outcome
-    - Ideal (no error): always measure 1
-    - With bit-flip error: about p × shots outcomes become 0
+    - Ideal (no error): always measure `1`
+    - With `bit-flip` error: about `p × shots` outcomes become `0`
 
 ## Requirements
 ```bash
