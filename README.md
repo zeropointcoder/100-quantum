@@ -21,7 +21,7 @@
 | 15 | [Quantum Circuit Optimiser](https://github.com/zeropointcoder/100-quantum/tree/main/qiskit/quantum-circuit-optimiser) | Compilation | Qiskit |
 | 16 | [Bit-Flip Error Simulation](https://github.com/zeropointcoder/100-quantum/tree/main/qiskit/bitflip-error-simulation) | Error | Qiskit |
 | 17 | [Deutsch Algorithm (1-bit)](https://github.com/zeropointcoder/100-quantum/tree/main/qiskit/deutsch-algorithm-simulator) | Algorithm | Qiskit |
-| 18 | Quantum Oracle Construction | Algorithm | Qiskit |
+| 18 | [Quantum Oracle Construction](https://github.com/zeropointcoder/100-quantum/tree/main/qiskit/quantum-oracle-construction) | Algorithm | Qiskit |
 | 19 | Simple Quantum Game | Simulation | Qiskit |
 | 20 | Teleportation Visualisation | Visualisation | Qiskit |
 | 21 | [Grover’s Algorithm for Simple Search (2-qubit)](https://github.com/zeropointcoder/100-quantum/tree/main/qiskit/grover-simple-search) | Algorithm | Qiskit |
