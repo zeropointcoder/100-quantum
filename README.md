@@ -1,4 +1,5 @@
-# 100 Quantum projects 
+# Schrödinger’s Archive of Possibilities 
+## (Contains all… and none. Until observed.)
 
 ## Core projects in Qiskit, cross-implemented in Cirq for benchmarking and hardware-alignment with Google Quantum AI.
 
