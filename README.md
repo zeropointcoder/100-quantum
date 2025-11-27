@@ -3,29 +3,29 @@
 
 | # | Project | Category | Framework Focus |
 |---|--------------|--------------|------|
-| 1	| [Quantum Basic Circuits](https://github.com/zeropointcoder/100-quantum/tree/main/qiskit/quantum-basic-circuits) | Superposition, Measurement | Qiskit |
-| 2 | [Hadamard Single Qubit Superposition](https://github.com/zeropointcoder/100-quantum/tree/main/qiskit/hadamard-superposition) | Superposition, Measurement | Qiskit |
-| 3 | [Quantum Measurement Simulation](https://github.com/zeropointcoder/100-quantum/tree/main/qiskit/quantum-measurement-simulation) | Superposition, Measurement | Qiskit |
-| 4 | [Quantum NOT Gate (X-gate)](https://github.com/zeropointcoder/100-quantum/tree/main/qiskit/quantum-x-gate) | Superposition, Measurement | Qiskit |
-| 5 | [Quantum AND Gate (Toffoli Gate)](https://github.com/zeropointcoder/100-quantum/tree/main/qiskit/quantum-and-gate) | Superposition, Measurement | Qiskit |
-| 6 | [Quantum Random Number Generator (QRNG)](https://github.com/zeropointcoder/100-quantum/tree/main/qiskit/quantum-random-number-generator) | Superposition, Measurement | Qiskit |
-| 7 | [Bell State Creation](https://github.com/zeropointcoder/100-quantum/tree/main/qiskit/bell-state-creation) | Entanglement | Qiskit |
-| 8 | [GHZ State Creation](https://github.com/zeropointcoder/100-quantum/tree/main/qiskit/ghz-state-creation) | Entanglement | Qiskit |
-| 9 | [Quantum Teleportation Simulation](https://github.com/zeropointcoder/100-quantum/tree/main/qiskit/quantum-teleportation) | Entanglement | Qiskit |
-| 10 | [Quantum Circuit Visualiser](https://github.com/zeropointcoder/100-quantum/tree/main/qiskit/quantum-circuit-visualiser) | Visualisation | Qiskit |
-| 11 | [Measurement Statistics Analyser](https://github.com/zeropointcoder/100-quantum/tree/main/qiskit/quantum-stats-analyser) | Simulation | Qiskit |
-| 12 | [Qubit Rotation on Bloch Sphere](https://github.com/zeropointcoder/100-quantum/tree/main/qiskit/qubit-rotator) | Visualisation | Qiskit |
-| 13 | [Simulate Decoherence](https://github.com/zeropointcoder/100-quantum/tree/main/qiskit/decoherence-noise-simulation) | Noise | Qiskit |
-| 14 | [SWAP Gate Experiment](https://github.com/zeropointcoder/100-quantum/tree/main/qiskit/swap-gate-experiment) | Gates | Qiskit |
-| 15 | [Quantum Circuit Optimiser](https://github.com/zeropointcoder/100-quantum/tree/main/qiskit/quantum-circuit-optimiser) | Compilation | Qiskit |
-| 16 | [Bit-Flip Error Simulation](https://github.com/zeropointcoder/100-quantum/tree/main/qiskit/bitflip-error-simulation) | Error | Qiskit |
-| 17 | [Deutsch Algorithm (1-bit)](https://github.com/zeropointcoder/100-quantum/tree/main/qiskit/deutsch-algorithm-simulator) | Algorithm | Qiskit |
-| 18 | [Quantum Oracle Construction](https://github.com/zeropointcoder/100-quantum/tree/main/qiskit/quantum-oracle-construction) | Algorithm | Qiskit |
-| 19 | [Simple Quantum Game](https://github.com/zeropointcoder/100-quantum/tree/main/qiskit/simple-quantum-game) | Simulation | Qiskit |
-| 20 | [Bell Pair Teleportation](https://github.com/zeropointcoder/100-quantum/tree/main/qiskit/bell-pair-teleportation) | Visualisation | Qiskit |
-| 21 | [Grover’s Algorithm for Simple Search (2-qubit)](https://github.com/zeropointcoder/100-quantum/tree/main/qiskit/grover-simple-search) | Algorithm | Qiskit |
-| 22 | [Grover’s Algorithm for Simple Search (3-qubit)](https://github.com/zeropointcoder/100-quantum/tree/main/qiskit/grover-simple-search) | Algorithm | Qiskit / Cirq |
-| 23 | [Simulated Shor’s Algorithm for Factoring Small Numbers](https://github.com/zeropointcoder/100-quantum/tree/main/qiskit/shor-factorisation) | Algorithm | Qiskit |
+| 1	| [Quantum Basic Circuits](https://github.com/zeropointcoder/schrodinger-archive/tree/main/qiskit/quantum-basic-circuits) | Superposition, Measurement | Qiskit |
+| 2 | [Hadamard Single Qubit Superposition](https://github.com/zeropointcoder/schrodinger-archive/tree/main/qiskit/hadamard-superposition) | Superposition, Measurement | Qiskit |
+| 3 | [Quantum Measurement Simulation](https://github.com/zeropointcoder/schrodinger-archive/tree/main/qiskit/quantum-measurement-simulation) | Superposition, Measurement | Qiskit |
+| 4 | [Quantum NOT Gate (X-gate)](https://github.com/zeropointcoder/schrodinger-archive/tree/main/qiskit/quantum-x-gate) | Superposition, Measurement | Qiskit |
+| 5 | [Quantum AND Gate (Toffoli Gate)](https://github.com/zeropointcoder/schrodinger-archive/tree/main/qiskit/quantum-and-gate) | Superposition, Measurement | Qiskit |
+| 6 | [Quantum Random Number Generator (QRNG)](https://github.com/zeropointcoder/schrodinger-archive/tree/main/qiskit/quantum-random-number-generator) | Superposition, Measurement | Qiskit |
+| 7 | [Bell State Creation](https://github.com/zeropointcoder/schrodinger-archive/tree/main/qiskit/bell-state-creation) | Entanglement | Qiskit |
+| 8 | [GHZ State Creation](https://github.com/zeropointcoder/schrodinger-archive/tree/main/qiskit/ghz-state-creation) | Entanglement | Qiskit |
+| 9 | [Quantum Teleportation Simulation](https://github.com/zeropointcoder/schrodinger-archive/tree/main/qiskit/quantum-teleportation) | Entanglement | Qiskit |
+| 10 | [Quantum Circuit Visualiser](https://github.com/zeropointcoder/schrodinger-archive/tree/main/qiskit/quantum-circuit-visualiser) | Visualisation | Qiskit |
+| 11 | [Measurement Statistics Analyser](https://github.com/zeropointcoder/schrodinger-archive/tree/main/qiskit/quantum-stats-analyser) | Simulation | Qiskit |
+| 12 | [Qubit Rotation on Bloch Sphere](https://github.com/zeropointcoder/schrodinger-archive/tree/main/qiskit/qubit-rotator) | Visualisation | Qiskit |
+| 13 | [Simulate Decoherence](https://github.com/zeropointcoder/schrodinger-archive/tree/main/qiskit/decoherence-noise-simulation) | Noise | Qiskit |
+| 14 | [SWAP Gate Experiment](https://github.com/zeropointcoder/schrodinger-archive/tree/main/qiskit/swap-gate-experiment) | Gates | Qiskit |
+| 15 | [Quantum Circuit Optimiser](https://github.com/zeropointcoder/schrodinger-archive/tree/main/qiskit/quantum-circuit-optimiser) | Compilation | Qiskit |
+| 16 | [Bit-Flip Error Simulation](https://github.com/zeropointcoder/schrodinger-archive/tree/main/qiskit/bitflip-error-simulation) | Error | Qiskit |
+| 17 | [Deutsch Algorithm (1-bit)](https://github.com/zeropointcoder/schrodinger-archive/tree/main/qiskit/deutsch-algorithm-simulator) | Algorithm | Qiskit |
+| 18 | [Quantum Oracle Construction](https://github.com/zeropointcoder/schrodinger-archive/tree/main/qiskit/quantum-oracle-construction) | Algorithm | Qiskit |
+| 19 | [Simple Quantum Game](https://github.com/zeropointcoder/schrodinger-archive/tree/main/qiskit/simple-quantum-game) | Simulation | Qiskit |
+| 20 | [Bell Pair Teleportation](https://github.com/zeropointcoder/schrodinger-archive/tree/main/qiskit/bell-pair-teleportation) | Visualisation | Qiskit |
+| 21 | [Grover’s Algorithm for Simple Search (2-qubit)](https://github.com/zeropointcoder/schrodinger-archive/tree/main/qiskit/grover-simple-search) | Algorithm | Qiskit |
+| 22 | [Grover’s Algorithm for Simple Search (3-qubit)](https://github.com/zeropointcoder/schrodinger-archive/tree/main/qiskit/grover-simple-search) | Algorithm | Qiskit / Cirq |
+| 23 | [Simulated Shor’s Algorithm for Factoring Small Numbers](https://github.com/zeropointcoder/schrodinger-archive/tree/main/qiskit/shor-factorisation) | Algorithm | Qiskit |
 | 24 | VQE for H₂ Molecule | Variational | Qiskit |
 | 25 | QAOA on Small Graph | Optimisation | Qiskit / Cirq |
 | 26 | Simulate 2-Qubit Noise | Noise | Qiskit |
@@ -34,7 +34,7 @@
 | 29 | Quantum Fourier Transform | Algorithm | Qiskit |
 | 30 | Teleportation with Noise | Error/Noise | Qiskit |
 | 31 | Circuit Learning for XOR | Quantum ML | Qiskit |
-| 32 | [Quantum Hybrid Classifier](https://github.com/zeropointcoder/100-quantum/tree/main/qiskit/quantum-hybrid-classifier) | Quantum ML | Qiskit |
+| 32 | [Quantum Hybrid Classifier](https://github.com/zeropointcoder/schrodinger-archive/tree/main/qiskit/quantum-hybrid-classifier) | Quantum ML | Qiskit |
 | 33 | Quantum Kernel SVM | Quantum ML | Qiskit |
 | 34 | Bell Inequality Test | Entanglement | Qiskit |
 | 35 | MaxCut with VQE | Optimisation | Qiskit / Cirq |
