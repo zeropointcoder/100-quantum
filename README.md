@@ -1,5 +1,5 @@
 # Schrödinger’s Archive of Possibilities 
-### (Contains all… and none. Until observed.)
+### (Contains all projects… and none. Until observed.)
 
 | # | Project | Category | Framework Focus |
 |---|--------------|--------------|------|
