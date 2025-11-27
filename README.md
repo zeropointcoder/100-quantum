@@ -24,7 +24,7 @@
 | 17 | [Deutsch Algorithm (1-bit)](https://github.com/zeropointcoder/100-quantum/tree/main/qiskit/deutsch-algorithm-simulator) | Algorithm | Qiskit |
 | 18 | [Quantum Oracle Construction](https://github.com/zeropointcoder/100-quantum/tree/main/qiskit/quantum-oracle-construction) | Algorithm | Qiskit |
 | 19 | [Simple Quantum Game](https://github.com/zeropointcoder/100-quantum/tree/main/qiskit/simple-quantum-game) | Simulation | Qiskit |
-| 20 | Teleportation Visualisation | Visualisation | Qiskit |
+| 20 | [Bell Pair Teleportation](https://github.com/zeropointcoder/100-quantum/tree/main/qiskit/bell-pair-teleportation) | Visualisation | Qiskit |
 | 21 | [Grover’s Algorithm for Simple Search (2-qubit)](https://github.com/zeropointcoder/100-quantum/tree/main/qiskit/grover-simple-search) | Algorithm | Qiskit |
 | 22 | [Grover’s Algorithm for Simple Search (3-qubit)](https://github.com/zeropointcoder/100-quantum/tree/main/qiskit/grover-simple-search) | Algorithm | Qiskit / Cirq |
 | 23 | [Simulated Shor’s Algorithm for Factoring Small Numbers](https://github.com/zeropointcoder/100-quantum/tree/main/qiskit/shor-factorisation) | Algorithm | Qiskit |
