@@ -37,6 +37,7 @@ class H2Ansatz:
         qc.cx(0, 1)
         qc.ry(θ[2], 1)
 
+        print(qc)
         return qc
         
 # VQE Solver

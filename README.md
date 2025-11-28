@@ -26,7 +26,7 @@
 | 21 | [Grover’s Algorithm for Simple Search (2-qubit)](https://github.com/zeropointcoder/schrodinger-archive/tree/main/qiskit/grover-simple-search) | Algorithm | Qiskit |
 | 22 | [Grover’s Algorithm for Simple Search (3-qubit)](https://github.com/zeropointcoder/schrodinger-archive/tree/main/qiskit/grover-simple-search) | Algorithm | Qiskit / Cirq |
 | 23 | [Simulated Shor’s Algorithm for Factoring Small Numbers](https://github.com/zeropointcoder/schrodinger-archive/tree/main/qiskit/shor-factorisation) | Algorithm | Qiskit |
-| 24 | VQE for H₂ Molecule | Variational | Qiskit |
+| 24 | [VQE for H₂ Molecule](https://github.com/zeropointcoder/schrodinger-archive/tree/main/qiskit/vqe-h2-simulator) | Variational | Qiskit |
 | 25 | QAOA on Small Graph | Optimisation | Qiskit / Cirq |
 | 26 | Simulate 2-Qubit Noise | Noise | Qiskit |
 | 27 | Quantum Phase Estimation (1-qubit) | Algorithm | Qiskit |
