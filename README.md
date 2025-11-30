@@ -24,11 +24,11 @@
 | 19 | [Simple Quantum Game](https://github.com/zeropointcoder/schrodinger-archive/tree/main/qiskit/simple-quantum-game) | Simulation | Qiskit |
 | 20 | [Bell Pair Teleportation](https://github.com/zeropointcoder/schrodinger-archive/tree/main/qiskit/bell-pair-teleportation) | Visualisation | Qiskit |
 | 21 | [Grover’s Algorithm for Simple Search (2-qubit)](https://github.com/zeropointcoder/schrodinger-archive/tree/main/qiskit/grover-simple-search) | Algorithm | Qiskit |
-| 22 | [Grover’s Algorithm for Simple Search (3-qubit)](https://github.com/zeropointcoder/schrodinger-archive/tree/main/qiskit/grover-simple-search) | Algorithm | Qiskit / Cirq |
-| 23 | [Simulated Shor’s Algorithm for Factoring Small Numbers](https://github.com/zeropointcoder/schrodinger-archive/tree/main/qiskit/shor-factorisation) | Algorithm | Qiskit |
+| 22 | [Grover’s Algorithm for Simple Search (3-qubit)](https://github.com/zeropointcoder/schrodinger-archive/tree/main/qiskit/grover-simple-search) | Algorithm | Qiskit |
+| 23 | [Simulated Shor’s Algorithm for Factoring Small Numbers](https://github.com/zeropointcoder/schrodinger-archive/tree/main/cirq/shor-factorisation) | Algorithm | Cirq |
 | 24 | [VQE for H₂ Molecule](https://github.com/zeropointcoder/schrodinger-archive/tree/main/qiskit/vqe-h2-simulator) | Variational | Qiskit |
 | 25 | [QAOA on Small Graph](https://github.com/zeropointcoder/schrodinger-archive/tree/main/qiskit/qaoa-maxcut-solver) | Optimisation | Qiskit / Cirq |
-| 26 | Simulate 2-Qubit Noise | Noise | Qiskit |
+| 26 | [Simulate 2-Qubit Noise](https://github.com/zeropointcoder/schrodinger-archive/tree/main/cirq/simulate-2qubit-noise) | Noise | Cirq |
 | 27 | Quantum Phase Estimation (1-qubit) | Algorithm | Qiskit |
 | 28 | Phase Estimation (2–3 qubits) | Algorithm | Qiskit / Cirq |
 | 29 | Quantum Fourier Transform | Algorithm | Qiskit |
@@ -60,8 +60,8 @@
 | 55 | Quantum Autoencoder | Quantum ML | Qiskit |
 | 56 | QAOA Weighted Graph | Optimisation | Qiskit / Cirq |
 | 57 | Quantum Generative Model | Quantum ML | Qiskit |
-| 58 | Hybrid QCNN | Quantum ML | ⚙️ Hybrid (Qiskit + TensorFlow Quantum) |
-| 59 | Quantum SVM on MNIST | Quantum ML | ⚙️ Hybrid (Qiskit + Cirq + TFQ) |
+| 58 | Hybrid QCNN | Quantum ML | Hybrid (Qiskit + TensorFlow Quantum) |
+| 59 | Quantum SVM on MNIST | Quantum ML | Hybrid (Qiskit + Cirq + TFQ) |
 | 60 | Quantum PCA | Quantum ML | Qiskit |
 | 61 | Ising Model Simulation | Physics Simulation | Cirq (Main) |
 | 62 | QAOA for TSP | Optimisation | Qiskit |
@@ -73,26 +73,26 @@
 | 68 | Phase Kickback Simulation | Algorithm | Qiskit |
 | 69 | Quantum Random Walk (2D) | Simulation | Qiskit |
 | 70 | Quantum Metrology Simulation | Physics | Qiskit / Cirq
-| 71 | Quantum RL (2-Qubit Env) | RL | ⚙️ Hybrid (Qiskit + Cirq + TFQ) |
+| 71 | Quantum RL (2-Qubit Env) | RL | Hybrid (Qiskit + Cirq + TFQ) |
 | 72 | Error Mitigation via Extrapolation | Noise | Qiskit |
-| 73 | Hybrid VQE + Classical Opt (H₂O) | Variational | ⚙️ Hybrid (Qiskit + Cirq + TFQ) |
+| 73 | Hybrid VQE + Classical Opt (H₂O) | Variational | Hybrid (Qiskit + Cirq + TFQ) |
 | 74 | Circuit Compilation Tool | Compilation | Qiskit |
 | 75 | Variational Classifier (Iris Dataset) | Quantum ML | Qiskit |
-| 76 | Quantum NLP Demo | NLP | ⚙️ Hybrid (Qiskit + Cirq + TFQ) |
+| 76 | Quantum NLP Demo | NLP | Hybrid (Qiskit + Cirq + TFQ) |
 | 77 | Circuit Learning (Logic Gates) | ML | Qiskit |
-| 78 | Quantum GAN (1D Distribution) | Generative | ⚙️ Hybrid (Qiskit + Cirq) |
+| 78 | Quantum GAN (1D Distribution) | Generative | Hybrid (Qiskit + Cirq) |
 | 79 | Teleportation with Error Correction | Networked | Qiskit |
 | 80 | Cloud Quantum Experiment | Real Hardware | Qiskit / Cirq |
 | 81 | Quantum Fourier Transform (5 Qubits) | Algorithm | Qiskit |
 | 82 | Shor’s Algorithm (6 Qubits) | Algorithm | Qiskit / Cirq |
 | 83 | QAOA on Larger Graph | Optimisation | Qiskit / Cirq |
-| 84 | Circuit Benchmark (Qiskit vs Cirq) | Comparison | ⚙️ Hybrid (Qiskit + Cirq) |
-| 85 | Quantum GAN (2D Distribution) | Generative | ⚙️ Hybrid (Qiskit + Cirq + TFQ) |
-| 86 | Quantum RL with QAOA Env | RL | ⚙️ Hybrid (Qiskit + TFQ) |
+| 84 | Circuit Benchmark (Qiskit vs Cirq) | Comparison | Hybrid (Qiskit + Cirq) |
+| 85 | Quantum GAN (2D Distribution) | Generative | Hybrid (Qiskit + Cirq + TFQ) |
+| 86 | Quantum RL with QAOA Env | RL | Hybrid (Qiskit + TFQ) |
 | 87 | Error-Corrected Teleportation | Fault-Tolerance | Qiskit / Cirq |
 | 88 | QAOA MaxCut (Real Graph) | Optimisation | Qiskit / Cirq |
 | 89 | Circuit Compression (Param Sharing) | Optimisation | Qiskit |
-| 90 | Hybrid Quantum-Classical NN (MNIST) | Quantum ML | ⚙️ Hybrid (Qiskit + TFQ) |
+| 90 | Hybrid Quantum-Classical NN (MNIST) | Quantum ML | Hybrid (Qiskit + TFQ) |
 | 91 | Spin Chain Simulation (6–8 Qubits) | Physics | Cirq (Main) |
 | 92 | Quantum Annealing Simulation | Optimisation | Cirq (Main) |
 | 93 | Fault-Tolerant Teleportation | Error Correction | Qiskit / Cirq |
@@ -100,9 +100,9 @@
 | 95 | Hubbard Model Simulation | Physics | Cirq (Main) |
 | 96 | State Tomography (4–6 Qubits) | Measurement | Qiskit / Cirq |
 | 97 | Quantum Sudoku Solver | Algorithm | Qiskit |
-| 98 | Quantum ML Pipeline (Cloud) | ML + Cloud | ⚙️ Hybrid (Qiskit + Cirq + TFQ) |
+| 98 | Quantum ML Pipeline (Cloud) | ML + Cloud | Hybrid (Qiskit + Cirq + TFQ) |
 | 99 | BB84 Cryptography Protocol | Quantum Comms | Qiskit |
-| 100 | Custom Hybrid Quantum Algorithm | Applied Research | ⚙️ Hybrid (Qiskit + Cirq + TFQ) |
+| 100 | Custom Hybrid Quantum Algorithm | Applied Research | Hybrid (Qiskit + Cirq + TFQ) |
 | DP1 | Core Deep Project 1: Custom QAOA / Problem-Specific Mixer Design | variational quantum algorithms, cost+mixer Hamiltonian design, optimization landscapes, hardware calibration  | Qiskit/Cirq |
 | DP2 | Core Deep Project 2: Full Quantum Error Correction Pipeline | QEC, stabilizers, decoding algorithms, noise channels  | Qiskit/Cirq |
 | DP3 | Core Deep Project 3: Pulse-Level Quantum Control | pulse-level programming, Hamiltonian control, GRAPE optimization, backend calibration parameters  | Qiskit/Cirq |
